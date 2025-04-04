@@ -1,0 +1,96 @@
+h1 { font-family: Copperplate, "Copperplate Gothic Light", fantasy; 
+    font-size: 40px; 
+    font-style: bold; 
+    font-weight: 700; 
+    line-height: 26.4px;
+    margin-left: 35%;
+    margin-top: -60px;
+    color: white;
+
+}
+body {
+    background-color: black;
+} 
+p {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: helvetica;
+    margin-top: 50px;
+    color: white;
+}
+
+#header {
+    width: 1478px;
+    height: 100px;
+    background-color: #bdbdbd;
+    margin-left: -10px;
+    margin-top: -10px;
+    margin-bottom: -10px;
+}
+
+
+
+#twitter {
+    width: 20px;
+    height: 20px;
+    border-radius: 10%;
+    padding: 10px;
+    margin-left: 50%;
+    margin-top: 30px;
+
+}
+
+#instagram {
+    width: 20px;
+    height: 20px;
+    border-radius: 10%;
+    padding: 10px;
+}
+
+#linkedin {
+    width: 21px;
+    height: 21px;
+    border-radius: 10%;
+    padding: 10px;
+}
+
+#footer {
+    width: 1495px;
+    height: 117px;
+    margin-bottom: -140px;
+    background-color: #bdbdbd;
+    margin-top: -122px;
+    margin-left: -30px;
+}
+
+#copy {
+    font-family: helvetica;
+    font-style: bold;
+    font-size: 13px;
+    color: white;
+    margin-left: 50%;
+    margin-bottom: -30px;
+    margin-top: 20px;
+}
+
+#termes {
+    font-family: helvetica;
+    font-style: none;
+    text-decoration: none;
+    color: white;
+    margin-left: 49.7%;
+    margin-top: 12px;
+    margin-bottom: -15px;
+}
+
+#politica {
+    font-family: helvetica;
+    font-style: none;
+    text-decoration: none;
+    color: white;
+    margin-top: 30px;
+    margin-left: 49.7%;
+    margin-bottom: -10px;
+
+
+}

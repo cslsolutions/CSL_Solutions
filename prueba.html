@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inici | CSL Solutions</title>
+    <link rel="icon" type="image/png" href="fotos recurs/CSL2.PNG">
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style3.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="fotos recurs/CSL LLarg.PNG" alt="Logo de l'empresa" height="50">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Inici</a></li>
+                    <li class="nav-item"><a class="nav-link" href="serveis.html">Serveis</a></li>
+                    <li class="nav-item"><a class="nav-link" href="solucions.html">Solucions</a></li>
+                    <li class="nav-item"><a class="nav-link" href="clients.html">Clients</a></li>
+                    <li class="nav-item"><a class="nav-link" href="faq.html">FAQs</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contacte.html">Contacte</a></li>
+                    <li class="nav-item"><a class="nav-link" href="aboutus.html">Sobre nosaltres</a></li>
+                    <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <!-- Swiper Slider -->
+    <div class="swiper-container my-5">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="../fotos recurs/image-2.jpg" class="img-fluid"></div>
+            <div class="swiper-slide"><img src="../fotos recurs/image-3.jpg" class="img-fluid"></div>
+            <div class="swiper-slide"><img src="../fotos recurs/image-4.jpg" class="img-fluid"></div>
+            <div class="swiper-slide"><img src="../fotos recurs/image-5.jpg" class="img-fluid"></div>
+        </div>
+        <div class="swiper-pagination"></div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+    </div>
+    
+    <!-- Contenido -->
+    <div class="container text-center my-5">
+        <h1>CyberSecurity Live Solutions</h1>
+        <h2>Empresa de ciberseguretat</h2>
+        <p>Oferim serveis de ciberseguretat i solucions per a particulars i empreses.</p>
+    </div>
+    
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p>CSL Solutions, 2024 © | <a href="termes.html" class="text-white">Termes i condicions</a> | <a href="politica.html" class="text-white">Política de privacitat</a></p>
+        <div>
+            <a href="https://x.com/csl_solutions"><img src="fotos recurs/twitter.png" alt="Twitter" height="30"></a>
+            <a href="https://www.instagram.com/csl.solutions/"><img src="fotos recurs/instagram.png" alt="Instagram" height="30"></a>
+            <a href="https://www.linkedin.com/in/ivan-sellares-8a9b5a34a/"><img src="fotos recurs/linkedin.png" alt="LinkedIn" height="30"></a>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            loop: true,
+            pagination: { el: '.swiper-pagination', clickable: true },
+            navigation: { nextEl: '.swiper-button-next', prevEl: '.swiper-button-prev' }
+        });
+    </script>
+</body>
+</html>
